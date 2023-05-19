@@ -1,7 +1,6 @@
-# Build the docker image
-
-
-# Run the docker image
+[]: # File: Readme.md
+[]: # Project: Readme.md
+# Run using dicker compose
 
 ```sh
 docker-compose -f docker-compose.yml up
