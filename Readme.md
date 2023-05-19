@@ -7,6 +7,14 @@
 docker-compose -f docker-compose.yml up
 ```
 
+# call the api with the following url:
+
+```sh
+POST request:
+http://localhost:8000/geoapp/distance/
+
+```
+
 # payload example:
 
 ```json
@@ -31,12 +39,7 @@ username: root
 password: root
 ```
 
-# call the api with the following url:
 
-```sh
-http://localhost:8000/geoapp/distance/
-
-```
 
 
 
