@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  my-django-application:
+    build: 
+      dockerfile: ./Dockerfile
+    volumes:
+      - ${PWD}:/code
+    working_dir: /code
+    ports:
+      - 8000:8000   
+    environment:
+      - RUSHA_HOME=/code
+    restart: always
+    command: bash -c "python manage.py runserver 0.0.0.0:8000" 
+
+     
+
+  
+
+
