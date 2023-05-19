@@ -26,7 +26,7 @@ http://localhost:8000/geoapp/distance/
 
 ```json
 {
-    "closest_points": [],
+    "closest_points": [[2, 2], [4, 5]]
 }
 ```
 
