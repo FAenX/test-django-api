@@ -8,7 +8,7 @@ packages = [{include = "my_test_project"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-django = "^4.2.1"
+django = "^4.2.3"
 celery = "^5.2.7"
 djangorestframework = "^3.14.0"
 django-cors-headers = "^3.13.0"
